@@ -25,9 +25,9 @@ const MobileFeatures = () => {
     return (
 
 <div className="flex flex-col  lg:hidden justify-center align-middle bg-cta5 bg-cover h-[290px] w-full  mb-8 p-4 mx-auto">
-        <button className="text-white bg-black rounded-lg border-4 border-black text-center h-[61px]  text-2xl md:text-4xl font-extrabold hover:bg-main hover:text-black w-[60%] tracking-widest mb-[18px] mx-auto">+ RIDING ACADEMY</button>
-        <button className="text-white bg-black rounded-lg border-4 border-black text-center h-[61px]  text-2xl md:text-4xl font-extrabold hover:bg-main hover:text-black w-[60%] tracking-widest mb-[18px] mx-auto">+ MOTORCYCLE RENTALS</button>
-        <button className="text-white bg-black rounded-lg border-4 border-black text-center h-[61px]  text-2xl md:text-4xl font-extrabold hover:bg-main hover:text-black w-[60%] tracking-widest mx-auto">+ MOTORCYCLE TOURS</button>
+        <button className="text-white bg-black rounded-lg border-4 border-black text-center h-[61px]   text-md md:text-4xl font-extrabold hover:bg-main hover:text-black w-[60%] tracking-widest mb-[18px] mx-auto">+ RIDING ACADEMY</button>
+        <button className="text-white bg-black rounded-lg border-4 border-black text-center h-[61px]   text-md md:text-4xl font-extrabold hover:bg-main hover:text-black w-[60%] tracking-widest mb-[18px] mx-auto">+ MOTORCYCLE RENTALS</button>
+        <button className="text-white bg-black rounded-lg border-4 border-black text-center h-[61px]   text-md md:text-4xl font-extrabold hover:bg-main hover:text-black w-[60%] tracking-widest mx-auto">+ MOTORCYCLE TOURS</button>
 </div>
     )
 }
@@ -37,10 +37,10 @@ const DesktopFeature = () => {
     return (
         <div className="hidden lg:flex justify-between align-middle my-16">
             {contents.map(content => (
-            <div className="flex flex-col flex-wrap">
+            <div className="flex flex-col flex-wrap" key={content.name}>
             <div>
                 <img src={content.image} alt={content.name} className="h-[361px] w-[357px]"/>
-                <button className="text-white bg-black rounded-lg border-4 border-black text-center h-[41px]  text-md  font-extrabold hover:bg-main hover:text-black w-[170px] tracking-widest mb-[18px] relative top-[-20px] right-[-52%]">+ {content.link}</button>
+                <button className="text-white bg-black rounded-lg border-4 border-black text-center h-[41px]  text-sm md:text-md  font-extrabold hover:bg-main hover:text-black w-[170px] tracking-widest mb-[18px] relative top-[-20px] right-[-52%]">+ {content.link}</button>
             </div>
 
             <div className="flex flex-col flex-wrap w-[357px]">

@@ -1,5 +1,6 @@
 import Academy from 'components/Academy'
 import Features from 'components/Features'
+import Footer from 'components/Footer'
 import Header from 'components/Header'
 import Services from 'components/Services'
 import ShopUnits from 'components/ShopUnits'
@@ -17,6 +18,7 @@ function Home() {
         <Features />
         <Services />
         <Academy />
+        <Footer />
     </div>
   )
 }

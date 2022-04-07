@@ -88,7 +88,7 @@ export default function BikeCarousel() {
       >
           {
               bikeImages.map(bike => (
-                  <SwiperSlide>
+                  <SwiperSlide key={bike.name}>
                   <div className="flex flex-col justify-center w=50 h-50 align-middle text-center cursor-pointer mx-16">
                       <img src={bike.image} alt={`${bike.name}`}/>
                         <p className="font-bold text-3xl hover:text-main">{bike.name}</p>
@@ -119,7 +119,7 @@ export default function BikeCarousel() {
       >
           {
               bikeImages.map(bike => (
-                  <SwiperSlide>
+                  <SwiperSlide key={bike.name}>
                   <div className="flex flex-col justify-center w=50 h-50 align-middle text-center cursor-pointer">
                       <img src={bike.image} alt={`${bike.name}`}/>
                         <p className="font-bold text-3xl hover:text-main">{bike.name}</p>

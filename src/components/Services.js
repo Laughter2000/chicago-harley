@@ -32,7 +32,7 @@ function Services() {
     <div className="flex flex-col bg-patternrow bg-cover w-full h-full md:bg-none my-16 py-8">
         {
             contents.map(content => (
-                <div className="flex flex-col mb-[35px] md:my-[45px] mx-auto">
+                <div className="flex flex-col mb-[35px] md:my-[45px] w-[90%] mx-auto " key={content.name}>
                     <h3 className="font-extrabold text-3xl md:hidden mb-4">{content.name}</h3>
                     <div className="flex flex-row w-[100%]">
                         <img src={content.image} alt={content.name} className={`  h-[256px] md:order-${content.order}`}/>

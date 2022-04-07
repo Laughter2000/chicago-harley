@@ -64,7 +64,7 @@ export default function WeekBike() {
       >
           {
               bikeImages.map(bike => (
-                  <SwiperSlide>
+                  <SwiperSlide key={bike.image}>
                   <div className="flex flex-row justify-center w-[90%] h-[426px] align-middle text-center cursor-pointer mx-16">
                       <div>
                       <img src={bike.image} alt={`bike`} className="h-[419px] w-[557px]"/>

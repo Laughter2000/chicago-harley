@@ -30,6 +30,8 @@ module.exports = {
 
         'patternrow': "url('/public/images/chicagoharley-bg-index-rows.png')",
 
+        'footer': "url('/public/images/chicagoharley-bg-footer.png')",
+
 
 
       }

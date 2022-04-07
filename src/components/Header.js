@@ -45,7 +45,7 @@ const MobileNav = () => {
             <div className={`${!isOpen && `hidden`} transition ease-in-out`}>
                 <ul className={`min-w-full flex flex-col list-none rounded-none  bg-black text-white divide-y `} >
                 {Object.keys(Links).map(link =>
-                    <div className="flex flex-col">
+                    <div className="flex flex-col" key={link}>
                     <div className={`flex py-3 px-2 ${activeNav === link && `bg-main`}`} onClick={() => setActiveNav(prev => {return prev === link ? null : link})}>
                     <li className="text-xs">{link}</li>
                     <ChevronDownIcon className="h-3 w-3 text-white" />
@@ -53,7 +53,7 @@ const MobileNav = () => {
                     <ul className={`min-w-full flex flex-col list-none rounded-none  bg-primary text-white divide-y divide-black  ${activeNav !== link && `hidden`} transition-transform linear`}>
                         {
                             Links[link].map(item => (
-                                <li>
+                                <li key={item.name}>
                                 <Link
                                 className="text-sm capitalize py-2 px-4 font-thin block text-black"
                                 to={`${item.link}`}
@@ -82,14 +82,14 @@ const DesktopNav = () => {
 
                 {
                     Object.keys(Links).slice(0,4).map(link => (
-                        <div className="dropdown inline-block relative cursor-pointer ">
+                        <div className="dropdown inline-block relative cursor-pointer " key={link}>
                         <p className="text-black font-semibold py-2 px-4 cursor-pointer inline-flex items-center border-b-4 border-white hover:border-main">
                          {link}
                         </p>
                         <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-44">
                         {
                             Links[link].map(item => (
-                                <li>
+                                <li key={item.name}>
                                 <Link
                                 className="bg-primary text-sm capitalize py-2 px-4 font-bold block text-black hover:text-white hover:bg-main"
                                 to={`${item.link}`}
@@ -107,7 +107,7 @@ const DesktopNav = () => {
 
             {
                     Object.keys(Links).slice(5,).map(link => (
-                        <div className="dropdown inline-block relative cursor-pointer">
+                        <div className="dropdown inline-block relative cursor-pointer" key={link}>
                         <p className="text-black font-semibold py-2 px-4 cursor-pointer inline-flex items-center border-b-4 border-white hover:border-main">
                          {link}
                         </p>
@@ -115,7 +115,7 @@ const DesktopNav = () => {
 
                         {
                             Links[link].map(item => (
-                                <li>
+                                <li key={item.name}>
                                 <Link
                                 className="bg-primary text-sm capitalize py-2 px-4 font-bold block text-black hover:text-white hover:bg-main"
                                 to={`${item.link}`}

@@ -9,30 +9,30 @@ function ShopUnits() {
         <div className="flex flex-col md:flex-row justify-center text-center mx-auto md:justify-between mt-[21px]  md:w-full pl-[10%] md:pl-0 divide-y pb-16">
 
                     <div className={`flex flex-row md:flex-col bg-cta1 h-[144px] md:h-[241px]  w-[90%] md:w-[342px] bg-cover align-middle justify-center  from-blue-500 to-transparent pt-16 md:pt-0 border-2 border-white md:border-none`}>
-                        <p className="font-extrabold text-5xl text-white pr-4">
+                        <p className="font-extrabold text-2xl md:text-5xl text-white pr-4">
                             $100
                         </p>
-                        <p className="font-extrabold text-5xl text-white md:mt-2">
+                        <p className="font-extrabold text-2xl md:text-5xl text-white md:mt-2">
                             per month
                         </p>
                     </div>
 
 
                     <div className={`flex flex-row md:flex-col bg-cta2 h-[144px] md:h-[241px]  w-[90%] md:w-[342px] bg-cover align-middle justify-center  from-blue-500 to-transparent pt-16 md:pt-0 border-2 border-white md:border-none`}>
-                        <p className="font-extrabold text-5xl text-white pr-4">
+                        <p className="font-extrabold text-2xl md:text-5xl text-white pr-4">
                             $250
                         </p>
-                        <p className="font-extrabold text-5xl text-white md:mt-2">
+                        <p className="font-extrabold text-2xl md:text-5xl text-white md:mt-2">
                             per month
                         </p>
                     </div>
 
 
                     <div className={`flex flex-row md:flex-col bg-cta3 h-[144px] md:h-[241px]  w-[90%] md:w-[342px] bg-cover align-middle justify-center  from-blue-500 to-transparent pt-16 md:pt-0 border-2 border-white md:border-none`}>
-                        <p className="font-extrabold text-5xl text-white pr-4">
+                        <p className="font-extrabold text-2xl md:text-5xl text-white pr-4">
                             $500
                         </p>
-                        <p className="font-extrabold text-5xl text-white md:mt-2">
+                        <p className="font-extrabold text-2xl md:text-5xl text-white md:mt-2">
                             per month
                         </p>
                     </div>
