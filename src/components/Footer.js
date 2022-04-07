@@ -20,7 +20,7 @@ function Footer() {
                 <p className="text-white mt-1 max-w-[200px]">5490 Park Place Rosemont, IL 60018</p>
         </div>
 
-        <p className="font-extrabold text-4xl cursor-pointer hover:text-main my-4">847.454.7244</p>
+        <p className="font-extrabold text-4xl cursor-pointer hover:text-main my-4">847.450.7368</p>
         
         <p>"Powered by Windy City Motorcycle Company with 15 locations across Chicagoland and Southern Wisconsin.</p>
         </div>

@@ -36,7 +36,7 @@ const MobileNav = () => {
                 <p className="max-w-[150px] pl-3">5490 Park Place RoseMont, IL 6DD18</p>
                 </div>
                 <div className="p-3 h-6 bg-main py-0 mt-4">
-                <p className="text-white">847.454.7244</p>
+                <p className="text-white">847.450.7368</p>
 
                 </div>
             </div>
@@ -77,7 +77,7 @@ const DesktopNav = () => {
     return (
         <div className="hidden lg:flex mt-16 align-middle text-xs justify-between cursor-pointer hover:border-">
                 <div className="p-3 h-6 bg-main py-0 mt-2 hover:bg-gray-900">
-                <p className="text-white mt-1">847.454.7244</p>
+                <p className="text-white mt-1">847.450.7368</p>
                 </div>
 
                 {
