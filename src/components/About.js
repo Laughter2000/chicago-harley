@@ -21,7 +21,7 @@ function About() {
   return (
     <div className="text-center">
         <hr className="border-4 border-main"/>
-        <div className="max-w-[90%] mx-auto">
+        <div className="max-w-[80%] mx-auto">
 
         <h1 className="font-semibold text-4xl mt-16 font">About Us</h1>
         <h3 className="font-medium text-2xl mt-4">Chicago Harley-Davidson®</h3>
@@ -40,7 +40,7 @@ function About() {
         
         </div>
 
-        <div className="max-w-[90%] mx-auto mt-8">
+        <div className="max-w-[80%] mx-auto mt-8">
 
         <h3 className="font-medium text-2xl mt-4">Our Story</h3>
 
@@ -59,7 +59,7 @@ function About() {
         </div>
 
 
-        <div className="max-w-[70%] mx-auto mt-8 text-center">
+        <div className="max-w-[80%] mx-auto mt-8 text-center">
         <h3 className="font-medium text-2xl my-4">Our Commitment</h3>
 
         {
@@ -89,7 +89,7 @@ function About() {
         </div>
 
 
-        <div className="max-w-[70%] mx-auto mt-8 text-center">
+        <div className="max-w-[80%] mx-auto mt-8 text-center">
         <h3 className="font-medium text-2xl my-4">The Windy City Motorcycle Company Advantage</h3>
 
         {
