@@ -108,7 +108,7 @@ const DesktopNav = () => {
             {
                     Object.keys(Links).slice(5,).map(link => (
                         <div className="dropdown inline-block relative cursor-pointer">
-                        <p className="text-black font-semibold py-2 px-4 cursor-pointer inline-flex items-center border-b-4 border-white group-hover:border-main">
+                        <p className="text-black font-semibold py-2 px-4 cursor-pointer inline-flex items-center border-b-4 border-white hover:border-main">
                          {link}
                         </p>
                         <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-44">

@@ -1,4 +1,7 @@
+import Academy from 'components/Academy'
+import Features from 'components/Features'
 import Header from 'components/Header'
+import Services from 'components/Services'
 import ShopUnits from 'components/ShopUnits'
 import BikeCarousel from 'components/TopBikesCarousel'
 import WeekBike from 'components/WeekBike'
@@ -11,6 +14,9 @@ function Home() {
         <BikeCarousel />
         <ShopUnits />
         <WeekBike />
+        <Features />
+        <Services />
+        <Academy />
     </div>
   )
 }

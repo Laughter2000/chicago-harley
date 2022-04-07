@@ -1,19 +1,6 @@
 import React from 'react'
 
-const shopUnits = [
-    {
-        bgimage: "public/images/chicagoharley-sbp-cta1.jpg",
-        amount: "$100"
-    },
-    {
-        bgimage: "public/images/chicagoharley-sbp-cta2.jpg",
-        amount: "$250"
-    },
-    {
-        bgimage: "public/images/chicagoharley-sbp-cta3.jpg",
-        amount: "$500"
-    }
-]
+
 
 function ShopUnits() {
   return (

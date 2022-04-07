@@ -26,9 +26,12 @@ module.exports = {
 
         'cta4': "url('/public/images/bikes-of-the-week-bg.png')",
 
+        'cta5': "url('/public/images/chicagoharley-bg-cta-section.png')",
 
-        
-        
+        'patternrow': "url('/public/images/chicagoharley-bg-index-rows.png')",
+
+
+
       }
     },
 

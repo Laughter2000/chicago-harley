@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -65,7 +65,7 @@ export default function WeekBike() {
           {
               bikeImages.map(bike => (
                   <SwiperSlide>
-                  <div className="flex  justify-center w-[90%] h-[426px] align-middle text-center cursor-pointer mx-16">
+                  <div className="flex flex-row justify-center w-[90%] h-[426px] align-middle text-center cursor-pointer mx-16">
                       <div>
                       <img src={bike.image} alt={`bike`} className="h-[419px] w-[557px]"/>
                         </div>
