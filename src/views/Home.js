@@ -12,6 +12,9 @@ function Home() {
   return (
     <div className="lg:px-20">
         <Header />
+        <div className="bg-torn-pattern">
+        <img src="./images/new-trade-asset.jpg" alt="new-trade-asset" className="bg-torn-pattern"/>
+        </div>
         <BikeCarousel />
         <ShopUnits />
         <WeekBike />

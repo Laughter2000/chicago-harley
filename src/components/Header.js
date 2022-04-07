@@ -147,9 +147,7 @@ function Header() {
         <img src="./images/chicagoharley-image-price-guarantee-te.png" alt="chicagoharly-price-guarantee"/>
         <MobileNav />
         <DesktopNav />
-        <div className="bg-torn-pattern">
-        <img src="./images/new-trade-asset.jpg" alt="new-trade-asset" className="bg-torn-pattern"/>
-        </div>
+
     </div>
   )
 }

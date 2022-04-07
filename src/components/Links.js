@@ -149,7 +149,7 @@ const  Links = {
 "INFO": [
     {
         name: "About Us",
-        link: "#"
+        link: "/about-us"
     },
     {
         name: "Testimonials",
